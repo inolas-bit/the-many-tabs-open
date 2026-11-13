@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+@theme {
+  --color-acid-lime: #D7FF00;
+  --color-orange-pop: #FF5A36;
+  --color-electric-blue: #3457FF;
+  --color-hot-pink: #FF4D9D;
+  --color-scrap-black: #151515;
+  --color-warm-white: #F5F1E8;
+  --color-paper-card: #FDFBF7;
+  --color-tape: rgba(255, 245, 180, 0.75);
+}
+
+:root {
+  --background: #F5F1E8;
+  --foreground: #151515;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #D7FF00;
+  selection-color: #151515;
+}
+
+::selection {
+  background-color: #D7FF00;
+  color: #151515;
+}
+
+/* Custom Brutalist & Scrapbook Shadows */
+.scrap-border {
+  border: 2px solid #151515;
+}
+
+.scrap-border-3 {
+  border: 3px solid #151515;
+}
+
+.scrap-shadow {
+  box-shadow: 4px 4px 0px #151515;
+}
+
+.scrap-shadow-sm {
+  box-shadow: 2px 2px 0px #151515;
+}
+
+.scrap-shadow-lg {
+  box-shadow: 7px 7px 0px #151515;
+}
+
+.scrap-shadow-xl {
+  box-shadow: 10px 10px 0px #151515;
+}
+
+.scrap-shadow-lime {
+  box-shadow: 5px 5px 0px #D7FF00;
+}
+
+.scrap-shadow-pink {
+  box-shadow: 5px 5px 0px #FF4D9D;
+}
+
+.scrap-shadow-orange {
+  box-shadow: 5px 5px 0px #FF5A36;
+}
+
+.scrap-shadow-blue {
+  box-shadow: 5px 5px 0px #3457FF;
+}
+
+/* Paper Grid Patterns */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(21, 21, 21, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(21, 21, 21, 0.07) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(21, 21, 21, 0.15) 1.5px, transparent 1.5px);
+}
+
+.bg-dark-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(215, 255, 0, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(215, 255, 0, 0.12) 1px, transparent 1px);
+}
+
+/* Washi Tape styling */
+.washi-tape {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(2px);
+  border-left: 2px dashed rgba(21, 21, 21, 0.25);
+  border-right: 2px dashed rgba(21, 21, 21, 0.25);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.washi-tape-yellow {
+  background: rgba(215, 255, 0, 0.7);
+  backdrop-filter: blur(2px);
+  border-left: 2px dashed rgba(21, 21, 21, 0.2);
+  border-right: 2px dashed rgba(21, 21, 21, 0.2);
+}
+
+.washi-tape-pink {
+  background: rgba(255, 77, 157, 0.75);
+  color: white;
+  backdrop-filter: blur(2px);
+  border-left: 2px dashed rgba(21, 21, 21, 0.3);
+  border-right: 2px dashed rgba(21, 21, 21, 0.3);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+  border-left: 2px solid #151515;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #151515;
+  border: 2px solid #F5F1E8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5A36;
+}
+
+/* Barcode CSS generator */
+.barcode-lines {
+  background: repeating-linear-gradient(
+    90deg,
+    #151515,
+    #151515 2px,
+    transparent 2px,
+    transparent 4px,
+    #151515 4px,
+    #151515 7px,
+    transparent 7px,
+    transparent 9px,
+    #151515 9px,
+    #151515 13px,
+    transparent 13px,
+    transparent 15px
+  );
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite 2s;
+}
+
