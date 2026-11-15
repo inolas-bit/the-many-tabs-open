@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ The Many Tabs Open in My Head
 
-## Getting Started
+### A little bit of data. A little bit of design. A whole lot of ideas.
 
-First, run the development server:
+Welcome to my corner of the internet — a creative portfolio where technology meets storytelling, analytical thinking meets imagination, and curiosity refuses to stay in one lane.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm **Saloni Singh**, a BCA graduate, creative thinker and analytical explorer. I enjoy working with data, experimenting with design, exploring culture and turning random thoughts into ideas worth building.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Too many ideas. Not enough tabs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 What's Inside My Head?
 
-## Learn More
+- **Creative Thinking:** Campaign concepts, brainstorming, brand storytelling and visual experiments.
+- **Analytical Thinking:** Data analysis, dashboards, research and finding patterns in information.
+- **Technology:** Python, SQL, Excel, Power BI and exploring how technology can solve real problems.
+- **Beyond the Screen:** Dance, culture, hackathons, community experiences and everything that inspires me.
 
-To learn more about Next.js, take a look at the following resources:
+## 🗂️ Explore My Portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Section | What's Inside |
+|---|---|
+| Home | A little introduction to me |
+| About Me | My journey, interests and skills |
+| Creative Lab | Ideas, concepts and visual experiments |
+| Analytical Brain | Data analytics and technical projects |
+| Beyond the Screen | GDG, hackathons, coordination, sports and dance |
+| Contact | Find me across the internet |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tools & Technologies
 
-## Deploy on Vercel
+**Analytics & Programming**
+- Python
+- SQL
+- Microsoft Excel
+- Power BI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Creative & Design**
+- Canva
+- Figma
+- Adobe Photoshop
+- Adobe Illustrator
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Web Development**
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## 🌐 Find Me Around the Internet
+
+- **Portfolio:** [The Many Tabs Open in My Head](https://the-many-tabs-open.vercel.app/)
+- **LinkedIn:** [Saloni Singh](https://www.linkedin.com/in/saloni-singh1329/)
+- **GitHub:** [inolas-bit](https://github.com/inolas-bit)
+- **Email:** [alonisinghofficial2026@gmail.com](mailto:alonisinghofficial2026@gmail.com)
+
+## 💌 Let's Connect!
+
+I'm always interested in conversations around creative strategy, data, design, technology, culture and interesting ideas.
+
+If something here catches your attention, let's talk. You never know which conversation might open another tab.
+
+---
+
+<p align="center">
+  Made with curiosity, creativity & a slightly overcrowded brain.
+  <br/><br/>
+  **© Saloni Singh**
+</p> 
