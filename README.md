@@ -54,7 +54,7 @@ I'm **Saloni Singh**, a BCA graduate, creative thinker and analytical explorer. 
 - **Portfolio:** [The Many Tabs Open in My Head](https://the-many-tabs-open.vercel.app/)
 - **LinkedIn:** [Saloni Singh](https://www.linkedin.com/in/saloni-singh1329/)
 - **GitHub:** [inolas-bit](https://github.com/inolas-bit)
-- **Email:** [alonisinghofficial2026@gmail.com](mailto:alonisinghofficial2026@gmail.com)
+- **Email:** [salonisinghofficial2026@gmail.com](mailto:salonisinghofficial2026@gmail.com)
 
 ## 💌 Let's Connect!
 
